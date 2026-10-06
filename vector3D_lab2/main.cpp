@@ -17,7 +17,7 @@ int main() {
 	a.add(b).Display();
 	cout << "a - b = ";
 	a.sub(b).Display();
-	cout << "a * b (скалярний) = " << a.dot(b) << endl;
+	cout << "a * b = " << a.dot(b) << endl;
 	cout << "a * 2 = ";
 	a.mul(2).Display();
 	cout << "|a| = " << a.length() << endl;
