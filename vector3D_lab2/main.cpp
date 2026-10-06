@@ -26,7 +26,7 @@ int main() {
 	if (a.equals(b))
 		cout << "Вектори рівні." << endl;
 	else
-		cout << "Вектор  не рівні." << endl;
+		cout << "Вектори не рівні." << endl;
 
 	int c = a.comparelength(b);
 	if (c < 0)
