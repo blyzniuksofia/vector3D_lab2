@@ -17,9 +17,13 @@ int main() {
 	a.add(b).Display();
 	cout << "a - b = ";
 	a.sub(b).Display();
+	cout << "b - a = ";
+	b.sub(a).Display();
 	cout << "a * b = " << a.dot(b) << endl;
 	cout << "a * 2 = ";
 	a.mul(2).Display();
+	cout << "b * 3 = ";
+	b.mul(3).Display();
 	cout << "|a| = " << a.length() << endl;
 	cout << "|b| = " << b.length() << endl;
 
